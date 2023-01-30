@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlashActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:background="@color/wiolet"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textAppbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/changeLanguage"
+            android:textColor="@color/white"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30sp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/ic_baseline_translate_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/white" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/changeLanguage"
+        android:fontFamily="@font/strs"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold|italic|normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.169" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt">
+
+        <RadioButton
+            android:id="@+id/RD_Button_uzb"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroun_selected_button"
+            android:checked="true"
+            android:paddingStart="30dp"
+            android:textColor="@color/white"
+            android:paddingEnd="30dp"
+            android:text="O`zbek tili"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="212dp" />
+
+        <RadioButton
+            android:id="@+id/RD_Button_rus"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_radio_button"
+            android:layout_marginTop="20sp"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:text="Русский"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="212dp" />
+
+        <RadioButton
+            android:id="@+id/RD_Button_eng"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/background_radio_button"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:text="English"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="212dp" />
+    </RadioGroup>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="25sp"
+        android:text="@string/Next_text"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/background_button"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
