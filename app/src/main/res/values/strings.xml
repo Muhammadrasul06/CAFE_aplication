@@ -1,5 +1,31 @@
 <resources>
-    <string name="app_name">CAFE aplication</string>
+    <string name="app_name" translatable="false">Master <b>Cafe</b></string>
+
     <string name="Next_text">Keyingi</string>
     <string name="changeLanguage">Tilni tanlang</string>
+
+    <!--    SignIN-->
+    <string name="email_and_numberText">Elektron pochta yoki telefon</string>
+    <string name="enterYourEmail">Elektron pochta yoki telefon kiriting</string>
+    <string name="password">Maxfiy kod</string>
+    <string name="enterYourPassword">Maxfiy co dni kiriting</string>
+    <string name="signIn">Kirish</string>
+    <string name="noAccountText">Hisob yo\'qmi?</string>
+    <string name="signUp"><b>Ro\'yxatdan o`tish</b></string>
+
+    <!--    Sign Up -->
+    <string name="enterAddress">Manzilingizni kiriting</string>
+    <string name="address">Manzil</string>
+    <string name="enterName">Ismingizni kiriting</string>
+    <string name="name">Ismingiz</string>
+    <string name="hanaAnAccount">Avval tizimga kirganmisiz?</string>
+
+    <!--    OTP verify -->
+    <string name="qaytayuborish">Qayta yuborish ➔</string>
+    <string name="enterCode">SMS kodni kiriting</string>
+    <string name="SMSactivated">+998 91 234 ** ** raqamiga tasdiqlash kodi yuborildi</string>
+    <string name="verify">Tasdiqlash</string>
+    <string name="help">Yordam</string>
+    <string name="helpMe">Sizning muammolaringiz bormi?</string>
+
 </resources>

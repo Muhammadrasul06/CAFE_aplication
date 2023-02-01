@@ -3,12 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/CAFEaplication/app/src/main/res/drawable-mdpi/background_oval.xml" value="0.13" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CAFEaplication/app/src/main/res/drawable/backgroun_selected_button.xml" value="0.132" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CAFEaplication/app/src/main/res/drawable/background_button.xml" value="0.132" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CAFEaplication/app/src/main/res/drawable/background_button1.xml" value="0.133" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CAFEaplication/app/src/main/res/drawable/background_radio_button.xml" value="0.132" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/CAFEaplication/app/src/main/res/layout/activity_flash.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CAFEaplication/app/src/main/res/drawable/background_rentangle_full.xml" value="0.133" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CAFEaplication/app/src/main/res/drawable/ic_twotone_lock_24.xml" value="0.133" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CAFEaplication/app/src/main/res/layout/activity_create_password.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CAFEaplication/app/src/main/res/layout/activity_flash.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CAFEaplication/app/src/main/res/layout/activity_login.xml" value="0.27291666666666664" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/CAFEaplication/app/src/main/res/layout/activity_main.xml" value="0.20185185185185187" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CAFEaplication/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CAFEaplication/app/src/main/res/layout/activity_register.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CAFEaplication/app/src/main/res/layout/activity_verify.xml" value="0.27291666666666664" />
       </map>
     </option>
   </component>

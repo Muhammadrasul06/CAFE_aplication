@@ -1,4 +1,4 @@
-package com.example.cafeaplication.changeLanguage
+package com.example.cafeaplication.Kotlin_class.LingverClass
 
 import android.app.Application
 import com.yariksoffice.lingver.Lingver
